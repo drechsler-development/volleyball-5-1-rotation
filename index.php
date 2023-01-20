@@ -6,6 +6,7 @@
 	<script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui-touch-punch/0.2.3/jquery.ui.touch-punch.min.js"></script>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.2.3/css/bootstrap.min.css" integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 	<link rel="stylesheet" href="css/css.css">
 </head>
@@ -83,7 +84,7 @@
 					<div class="row">
 						<div class="col">
 							<label class="col-3" for="nameL">L:</label><input type="text" class="form-control-sm names col-9" id="nameL" data-target="libero" value="Felix">
-							<label class="col-3" for="nameM1">M1:</label><input type="text" class="form-control-sm names col-9" id="nameM1" data-target="mittleblock1" value="Nicola">
+							<label class="col-3" for="nameM1">M1:</label><input type="text" class="form-control-sm names col-9" id="nameM1" data-target="mittleblock1" value="Fabian">
 							<label class="col-3" for="nameM2">M2:</label><input type="text" class="form-control-sm names col-9" id="nameM2" data-target="mittleblock2" value="Gunnar">
 						</div>
 						<div class="col">
@@ -106,7 +107,7 @@
 			<!-- DO NOT CHANGE ORDER OF PLAYERS!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!! -->
 			<div style="z-index: 100;" id="setter" class="player" data-pos="1" data-name="Zuspieler">Ronny</div>
 			<div style="z-index: 200;" id="diagonal" class="player" data-pos="4" data-name="Diagonal">Alex</div>
-			<div style="z-index: 300;" id="mittleblock1" class="player" data-pos="3" data-name="Mitte1">Nicola</div>
+			<div style="z-index: 300;" id="mittleblock1" class="player" data-pos="3" data-name="Mitte1">Fabian</div>
 			<div style="z-index: 400;" id="mittleblock2" class="player" data-pos="6" data-name="Mitte2">Gunnar</div>
 			<div style="z-index: 500;" id="attacker1" class="player" data-pos="2" data-name="Außen1">Chris</div>
 			<div style="z-index: 600;" id="attacker2" class="player" data-pos="5" data-name="Außen2">Raimo</div>
@@ -118,6 +119,6 @@
 		</div>
 	</div>
 </div>
-<script src="script.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

@@ -3,6 +3,9 @@ let currentView = 'name';
 let situation = 'standard';
 let setterPosition = 1;
 let playerPosArray = [
+
+    //Setter 1
+
     {
         "setterPos": 1,
         "situation": "standard",
@@ -59,6 +62,7 @@ let playerPosArray = [
         "left": 213,
         "playerPos": 7
     },
+
     {
         "setterPos": 1,
         "situation": "preServe",
@@ -115,6 +119,7 @@ let playerPosArray = [
         "left": 213,
         "playerPos": 7
     },
+
     {
         "setterPos": 1,
         "situation": "afterServe",
@@ -179,6 +184,7 @@ let playerPosArray = [
         "left": 429,
         "playerPos": 1
     },
+
     {
         "setterPos": 1,
         "situation": "preServeReceive",
@@ -235,6 +241,7 @@ let playerPosArray = [
         "left": 297,
         "playerPos": 1
     },
+
     {
         "setterPos": 1,
         "situation": "afterServeReceive",
@@ -291,6 +298,9 @@ let playerPosArray = [
         "left": 223,
         "playerPos": 1
     },
+
+    //Setter 6
+
     {
         "setterPos": 6,
         "situation": "standard",
@@ -339,6 +349,7 @@ let playerPosArray = [
         "left": 63,
         "playerPos": 7
     },
+
     {
         "setterPos": 6,
         "situation": "preServe",
@@ -395,6 +406,7 @@ let playerPosArray = [
         "left": 86,
         "playerPos": 7
     },
+
     {
         "setterPos": 6,
         "situation": "afterServe",
@@ -451,6 +463,7 @@ let playerPosArray = [
         "left": 58,
         "playerPos": 7
     },
+
     {
         "setterPos": 6,
         "situation": "preServeReceive",
@@ -507,6 +520,7 @@ let playerPosArray = [
         "left": 191,
         "playerPos": 7
     },
+
     {
         "setterPos": 6,
         "situation": "afterServeReceive",
@@ -563,6 +577,9 @@ let playerPosArray = [
         "left": 65,
         "playerPos": 7
     },
+
+    //Setter 5
+
     {
         "setterPos": 5,
         "situation": "standard",
@@ -619,6 +636,7 @@ let playerPosArray = [
         "left": 615,
         "playerPos": 7
     },
+
     {
         "setterPos": 5,
         "situation": "preServe",
@@ -675,6 +693,7 @@ let playerPosArray = [
         "left": 615,
         "playerPos": 7
     },
+
     {
         "setterPos": 5,
         "situation": "afterServe",
@@ -731,6 +750,7 @@ let playerPosArray = [
         "left": 615,
         "playerPos": 7
     },
+
     {
         "setterPos": 5,
         "situation": "preServeReceive",
@@ -787,6 +807,7 @@ let playerPosArray = [
         "left": 380,
         "playerPos": 7
     },
+
     {
         "setterPos": 5,
         "situation": "afterServeReceive",
@@ -843,6 +864,9 @@ let playerPosArray = [
         "left": 213,
         "playerPos": 7
     },
+
+    //Setter 4
+
     {
         "setterPos": 4,
         "situation": "standard",
@@ -899,6 +923,7 @@ let playerPosArray = [
         "left": 213,
         "playerPos": 7
     },
+
     {
         "setterPos": 4,
         "situation": "preServe",
@@ -955,6 +980,7 @@ let playerPosArray = [
         "left": 208,
         "playerPos": 7
     },
+
     {
         "setterPos": 4,
         "situation": "afterServe",
@@ -1011,12 +1037,13 @@ let playerPosArray = [
         "left": 272,
         "playerPos": 7
     },
+
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "setter",
-        "top": 0,
-        "left": 169,
+        "top": 20,
+        "left": 16,
         "playerPos": 1
     },
     {
@@ -1024,49 +1051,50 @@ let playerPosArray = [
         "situation": "preServeReceive",
         "name": "mittleblock1",
         "top": 33,
-        "left": 596,
+        "left": 598,
         "playerPos": 6
     },
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "attacker1",
-        "top": -19,
-        "left": 52,
+        "top": -33,
+        "left": 213,
         "playerPos": 5
     },
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "diagonal",
-        "top": 200,
-        "left": 375,
+        "top": 250,
+        "left": 380,
         "playerPos": 4
     },
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "mittleblock2",
-        "top": -154,
-        "left": 211,
+        "top": -126,
+        "left": 56,
         "playerPos": 3
     },
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "attacker2",
-        "top": -247,
-        "left": 251,
+        "top": -133,
+        "left": 59,
         "playerPos": 2
     },
     {
         "setterPos": 4,
         "situation": "preServeReceive",
         "name": "libero",
-        "top": -151,
-        "left": 213,
+        "top": -172,
+        "left": 334,
         "playerPos": 7
     },
+
     {
         "setterPos": 4,
         "situation": "afterServeReceive",
@@ -1123,6 +1151,10 @@ let playerPosArray = [
         "left": 274,
         "playerPos": 7
     },
+
+
+    //Setter 3
+
     {
         "setterPos": 3,
         "situation": "standard",
@@ -1179,6 +1211,7 @@ let playerPosArray = [
         "left": 55,
         "playerPos": 7
     },
+
     {
         "setterPos": 3,
         "situation": "preServe",
@@ -1235,6 +1268,7 @@ let playerPosArray = [
         "left": 93,
         "playerPos": 7
     },
+
     {
         "setterPos": 3,
         "situation": "afterServe",
@@ -1291,6 +1325,7 @@ let playerPosArray = [
         "left": 61,
         "playerPos": 7
     },
+
     {
         "setterPos": 3,
         "situation": "preServeReceive",
@@ -1347,6 +1382,7 @@ let playerPosArray = [
         "left": 193,
         "playerPos": 7
     },
+
     {
         "setterPos": 3,
         "situation": "afterServeReceive",
@@ -1403,6 +1439,10 @@ let playerPosArray = [
         "left": 87,
         "playerPos": 7
     },
+
+
+    //Setter 2
+
     {
         "setterPos": 2,
         "situation": "standard",
@@ -1459,6 +1499,7 @@ let playerPosArray = [
         "left": 576,
         "playerPos": 7
     },
+
     {
         "setterPos": 2,
         "situation": "preServe",
@@ -1515,6 +1556,7 @@ let playerPosArray = [
         "left": 576,
         "playerPos": 7
     },
+
     {
         "setterPos": 2,
         "situation": "afterServe",
@@ -1571,6 +1613,7 @@ let playerPosArray = [
         "left": 576,
         "playerPos": 7
     },
+
     {
         "setterPos": 2,
         "situation": "preServeReceive",
@@ -1599,8 +1642,8 @@ let playerPosArray = [
         "setterPos": 2,
         "situation": "preServeReceive",
         "name": "diagonal",
-        "top": 256,
-        "left": 31,
+        "top": 265,
+        "left": 163,
         "playerPos": 4
     },
     {
@@ -1627,6 +1670,7 @@ let playerPosArray = [
         "left": 352,
         "playerPos": 7
     },
+
     {
         "setterPos": 2,
         "situation": "afterServeReceive",
@@ -1755,6 +1799,7 @@ $(".player").click(function (){
         $(".player").removeClass('CURRENT_CLICKED_PLAYER');
         currentClickedPlayer.addClass('CURRENT_CLICKED_PLAYER');
         RenderPlayerRangeArea(currentClickedPlayer);
+        console.debug($(this).position());
     }else{
         SetPlayerArea(0, 0, 0, 0);
     }
@@ -2087,7 +2132,7 @@ function Log(e, ui) {
         left: pos.left,
     }
 
-    console.log(object);
+    console.debug(object);
 }
 
 function MovePlayersTo(players) {
